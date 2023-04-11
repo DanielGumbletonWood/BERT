@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "*"
+transformers = "*"
+ipykernel = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+pandas = "*"
+matplotlib = "*"
+
+[dev-packages]
+jedi = "*"
+pylint = "*"
+loguru = "*"
+black = "*"
+
+[requires]
+python_version = "3.10"
